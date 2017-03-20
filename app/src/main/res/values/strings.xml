@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tencent</string>
+    <string name="login_name">QQ号/手机号/邮箱</string>
+    <string name="login_pass">密码</string>
+    <string name="login_button">登录</string>
+    <string name="lose_pass">忘记密码?</string>
+    <string name="new_user">新用户注册</string>
+    <string name="login_agree">服务条款</string>
+    <string name="login_show_text">我已阅读并同意</string>
+</resources>

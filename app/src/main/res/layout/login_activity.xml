@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorGray">
+
+        <com.meg7.widget.CustomShapeImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/myhead"
+            android:id="@+id/imageView"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp" />
+    </RelativeLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@null"
+        android:hint="@string/login_name"
+        android:paddingLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@null"
+        android:hint="@string/login_pass"
+        android:paddingLeft="20dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGray"
+        android:paddingTop="15dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_button"
+            android:id="@+id/loginButton"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/login_button_bg"
+            android:textScaleX="1.2"
+            android:translationZ="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lose_pass"
+            android:layout_below="@+id/loginButton"
+            android:paddingTop="5dp"
+            android:textColor="@color/colorBlue"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_user"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/loginButton"
+            android:textColor="@color/colorBlue"
+            android:paddingTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_agree"
+            android:layout_alignBaseline="@+id/showAgree"
+            android:layout_alignBottom="@+id/showAgree"
+            android:layout_toRightOf="@+id/showAgree"
+            android:layout_toEndOf="@+id/showAgree"
+            android:id="@+id/textView"
+            android:textColor="@color/colorBlue"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_show_text"
+            android:paddingLeft="120dp"
+            android:paddingBottom="20dp"
+            android:id="@+id/showAgree"
+            android:textSize="12dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>
